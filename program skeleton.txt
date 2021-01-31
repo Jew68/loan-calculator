@@ -1,0 +1,45 @@
+import argparse
+
+def overpayment():
+ payment - principal
+def annuity_branch():
+ if interest != None:
+  return error
+ nones = 0
+ for x in ppp:
+  if x == None:
+   nones += 1
+ if nones == 1:
+  if principal == None:
+   return principal
+  if periods == None:
+   return periods
+  if payments == None:
+   retun payments
+ else:
+  error
+
+parser = aregpares.ArgumantParser()
+
+parser.add_argument("--type", choices=[diff, annuity])
+parser.add_argument("--principal", default=False)
+parser.add_argument("--periods", default=False)
+parser.add_argument("--interest", default=False)
+parser.add_argument("--payments", default=False)
+
+args = parser.parse_args()
+
+ppp = [args.principal, args.periods, args.payments]
+
+if args.type == diff:
+ if all(principal != None, periods != None, interest != None, payments == None:
+  for month in periods:
+   print(month and payment)
+   overpayment()
+ else:
+  error
+elif args.type == annuity:
+ annuity_branch()
+ ovrepayment()
+else:
+ error
